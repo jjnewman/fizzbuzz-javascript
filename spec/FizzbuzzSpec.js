@@ -46,7 +46,9 @@ describe("Fizzbuzz", function() {
     it("Fizzbuzz",function() {
       expect(fizzbuzz.fizzing(15)).toEqual("Fizzbuzz")
     });
-
+    it("number", function() {
+      expect(fizzbuzz.fizzing(1)).toEqual(1)
+    });
 
   });
 });

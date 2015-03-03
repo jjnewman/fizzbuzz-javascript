@@ -9,8 +9,9 @@ function FizzBuzz() {
     return number % 15 === 0
   }
   FizzBuzz.prototype.fizzing = function(number) {
-    return number === 3 ? "Fizz" : "Buzz"
-
+    if (number % 15 === 0) {return "Fizzbuzz";}
+    if (number % 3 === 0) {return "Fizz";}
+    if (number % 5 === 0) {return "Buzz";}
   }
 
 }
