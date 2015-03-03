@@ -6,7 +6,7 @@ function FizzBuzz() {
     return number % 5 === 0
   }
   FizzBuzz.prototype.isDivisibleByFifteen = function(number) {
-    return true
+    return number % 15 === 0
   }
 }
 

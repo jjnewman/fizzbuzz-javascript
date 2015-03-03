@@ -31,7 +31,14 @@ describe("Fizzbuzz", function() {
       expect(fizzbuzz.isDivisibleByFifteen(1)).toBe(false);
     });
 
-
   });
 
+  describe("It should what to say", function() {
+
+    it("Fizz", function() {
+      expect(fizzbuzz.fizzing(3)).toEqual("Fizz");
+    });
+
+
+  });
 });
