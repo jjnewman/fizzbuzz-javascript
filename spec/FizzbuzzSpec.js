@@ -27,6 +27,10 @@ describe("Fizzbuzz", function() {
       expect(fizzbuzz.isDivisibleByFive(1)).toBe(false);
     });
 
+    it ("fifteen", function() {
+      expect(fizzbuzz.isDivisibleByFifteen(1)).toBe(false);
+    });
+
 
   });
 
