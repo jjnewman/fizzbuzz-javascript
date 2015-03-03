@@ -8,5 +8,8 @@ function FizzBuzz() {
   FizzBuzz.prototype.isDivisibleByFifteen = function(number) {
     return number % 15 === 0
   }
+  FizzBuzz.prototype.fizzing = function(number) {
+    return "Fizz"
+  }
 }
 

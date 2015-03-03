@@ -33,10 +33,14 @@ describe("Fizzbuzz", function() {
 
   });
 
-  describe("It should what to say", function() {
+  describe("It should know what to say", function() {
 
     it("Fizz", function() {
       expect(fizzbuzz.fizzing(3)).toEqual("Fizz");
+    });
+
+    it("", function() {
+      expect(fizzbuzz.fizzing(5)).toEqual("Buzz");
     });
 
 
