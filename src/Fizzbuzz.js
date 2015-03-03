@@ -9,9 +9,10 @@ function FizzBuzz() {
     return number % 15 === 0
   }
   FizzBuzz.prototype.fizzing = function(number) {
-    if (number % 15 === 0) {return "Fizzbuzz";}
-    if (number % 3 === 0) {return "Fizz";}
-    if (number % 5 === 0) {return "Buzz";}
+    if (this.isDivisibleByFifteen(number)) {return "Fizzbuzz";}
+    if (this.isDivisibleByThree(number)) {return "Fizz";}
+    if (this.isDivisibleByFive(number)) {return "Buzz";}
+    return number;
   }
 
 }
