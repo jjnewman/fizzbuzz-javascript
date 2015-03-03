@@ -39,8 +39,12 @@ describe("Fizzbuzz", function() {
       expect(fizzbuzz.fizzing(3)).toEqual("Fizz");
     });
 
-    it("", function() {
+    it("Buzz", function() {
       expect(fizzbuzz.fizzing(5)).toEqual("Buzz");
+    });
+
+    it("Fizzbuzz",function() {
+      expect(fizzbuzz.fizzing(15)).toEqual("Fizzbuzz")
     });
 
 
