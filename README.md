@@ -1,1 +1,3 @@
-# fizzbuzz-javascript
+# Fizzbuzz-Javascript
+
+Initial practice in Javascript...
